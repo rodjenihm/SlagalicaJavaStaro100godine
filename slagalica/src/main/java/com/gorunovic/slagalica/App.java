@@ -18,6 +18,7 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
 import javafx.scene.layout.Border;
 import javafx.scene.layout.BorderStroke;
 import javafx.scene.layout.BorderStrokeStyle;
@@ -62,7 +63,7 @@ public class App extends Application
 	private static Parent createContent()
 	{		
 		// Baza reci
-		ArrayList<String> baza = loadDatabase(Paths.get("src/sr-Latin.dic"));
+		ArrayList<String> baza = loadDatabase(Paths.get("resources/sr-Latin.dic"));
 		//
 		
 		// Slova
